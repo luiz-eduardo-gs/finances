@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      - MYSQL_DATABASE=finances
+      - MYSQL_USER=homestead
+      - MYSQL_PASSWORD=homestead
+      - MYSQL_ROOT_PASSWORD=homestead
+    network_mode: 'host'
+    # ports:
+    #   - 3306:3306
+    volumes:
+      - finances-db:/var/lib/mysql
+
+volumes:
+  finances-db:
+    driver: local

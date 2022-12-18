@@ -3,10 +3,10 @@
 return [
     'development' => [
         'driver' => 'mysql',
-        'host' => 'localhost',
+        'host' => '127.0.0.1',
         'database' => 'finances',
-        'username' => 'root',
-        'password' => 'root',
+        'username' => 'homestead',
+        'password' => 'homestead',
         'charset' => 'utf8',
         'collation' => 'utf8_unicode_ci'
     ],

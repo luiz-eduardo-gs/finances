@@ -25,7 +25,7 @@ return [
     ],
     'environments' => [
         'default_migration_table' => 'migrations',
-        'default_database' => 'development',
+        'default_environment' => 'development',
         'development' => [
             'adapter' => $adapter,
             'host' => $host,
