@@ -2,6 +2,11 @@
 
 ## Migrations
 
+* `alias phinx='vendor/bin/phinx'`
 * `docker compose up -d`
-* `vendor/bin/phinx migrate`
-* If need to rollback: `vendor/bin/phinx rollback`
+* `phinx migrate`
+* If need to rollback: `phinx rollback`
+
+## Seeds
+
+* `phinx seed:run`
