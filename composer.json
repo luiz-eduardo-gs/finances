@@ -1,0 +1,15 @@
+{
+    "name": "luizeduardo/finances",
+    "autoload": {
+        "psr-4": {
+            "Luizeduardo\\Finances\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luiz Eduardo",
+            "email": "gs.luizeduardo00@gmail.com"
+        }
+    ],
+    "require": {}
+}
