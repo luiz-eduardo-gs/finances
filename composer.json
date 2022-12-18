@@ -13,5 +13,8 @@
     ],
     "require": {
         "robmorgan/phinx": "^0.13.3"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.21"
     }
 }
